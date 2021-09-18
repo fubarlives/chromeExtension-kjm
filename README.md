@@ -7,7 +7,8 @@ Basic Chrome Extension using ReactJS and Firebase Email Password Authentication 
 
 ## Use:
 ##    run  npm -install
-##    run npm build:prod  // this will create a production build and put the files into the dist folder
+##    run npm build:prod  
+### this will create a production build and put the files into the dist folder
 
 ##    Using Chrome Extensions in Developer mode you then install into chrome browser using "load unpacked" process
 
