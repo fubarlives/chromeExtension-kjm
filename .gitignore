@@ -1,6 +1,6 @@
 node_modules
 dist
-fbc.js
+src/fbc.js
 
 
 # Logs
