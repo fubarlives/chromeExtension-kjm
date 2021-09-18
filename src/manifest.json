@@ -1,0 +1,21 @@
+{
+  "name": "ReactJS Chrome Extension with Firebase Authentication",
+  "description": "Using ReactJS to build a Chrome Extension with Firebase Authentication",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "./16x16.png",
+    "32": "./32x32.png",
+    "48": "./48x48.png",
+    "128": "./128x128.png"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [ "storage"],
+  "content_security_policy": "script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://*.firebase.com https://www.googleapis.com; object-src 'self'"
+}
