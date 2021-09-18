@@ -11,7 +11,7 @@ module.exports = {
     entry: {
         popup: path.resolve(__dirname, "./src/popup.js"),
         background: path.resolve(__dirname, "./src/background.js"),
-        fbconfig: path.resolve(__dirname, "./src/fbc.js"),
+        fbconfig: path.resolve(__dirname, "./fbc.js"),
     },
     output: {
         filename: '[name].bundle.js',
